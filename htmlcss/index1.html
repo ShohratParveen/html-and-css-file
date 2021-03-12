@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>1st project</title>
+    <style> 
+    .button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #008CBA;; 
+  color:white; 
+  border-radius:13px ;
+  border:3px solid#008CBA;
+}
+
+.button1:hover {
+  background-color: #1f2122;
+  color: white;
+}
+.button2 {
+  background-color: transparent; 
+  color: white; 
+  border-radius:13px ;
+  border:2px solid#008CBA;
+}
+
+.button2:hover {
+  background-color: #4c7aaf;
+  color: white;
+}
+.button3 {
+  text-align: center ;
+  background-color: white; 
+  color: black; 
+  border-radius:13px ;
+  border:2px solid#008CBA;
+}
+
+.button3:hover {
+  background-color:rgb(47, 127, 180);
+  color: white;
+}
+.button4 {
+  line-break: auto;
+  text-align: center ;
+  background-color: white; 
+  color: black; 
+  border-radius:13px ;
+  border:2px solid#008CBA;
+ 
+}
+
+.button4:hover {
+  background-color:rgb(47, 127, 180);
+  color: white;
+}
+.button5 {
+  text-align: center ;
+  background-color: white; 
+  color: black; 
+  border-radius:13px ;
+  border:2px solid#008CBA;
+  margin: 10px;
+  padding: 15px;
+}
+
+.button5:hover {
+  background-color:rgb(47, 127, 180);
+  color: white;
+}
+
+     
+     * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+.column1 {
+         float: left;
+         width: 25%;
+         padding: 5px;
+       }
+      
+       
+       .column img {
+  margin-top: 3px;
+}
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create two equal columns that floats next to each other */
+* {
+         box-sizing: border-box;
+       }
+       
+       
+       .column {
+         float: left;
+         width: 25%;
+         padding: 5px;
+       }
+
+       
+       /* Clearfix (clear floats) */
+       .row::after {
+         content: "";
+         clear: both;
+         display: table;
+       }
+
+
+.section-header{
+  text-align: center;
+  font-size: 30px;
+  line-height: 0%;
+  font-family: 'Times New Roman', Times, serif;
+}
+.footer {
+  text-align: center;
+  padding: 30px;
+  background-color: rgb(8, 2, 0);
+  color: white;
+ 
+}
+
+   body {
+    margin: 2px;
+    padding: 10px;
+    font-family: sans-serif;
+    
+  }
+  nav {
+    width: 100%;
+    height: 80px;
+    background: rgba(0,0,0, .8);
+    border-top: 1px solid rgba(255,255,255, .2);
+    border-bottom: 1px solid rgba(255,255,255, .2);
+    position: sticky;
+    top: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0 100px;
+    justify-content: flex-end;
+  }
+  
+  nav ul li {
+    list-style: none;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: rgb(64, 214, 122);
+    padding: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 75px; /**  Rarely used! **/
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.active {
+    background: rgb(250, 245, 245);
+    
+  } 
+
+
+    </style>  
+</head>
+<body >
+  
+  <nav>
+    <ul>
+      <li><a href="#" class="active">HOME</a></li>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">PORTFOLIO</a></li>
+      <li><a href="#">SERVICES</a></li>
+      <li><a href="#">Team</a></li>
+      <li><a href="#">BLOG</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
+  </nav>
+
+ <section> 
+<div class="wrapper">
+    <div class="one-container">
+      <div class="one-content">
+        <div class="align-center">
+          <h1 class="one-heading">CLEAN AND FLEXIBLE TEMPLATE</h1>
+      <p class="contrast text-lagre">   
+        "Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.Nunc ut sem vitae risus tristique posuere.
+        <br> Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. "
+        </p>   
+           <div class="button">
+          <button class="button button1">DOWNLOAD NOW</button>
+          <button class="button button2">VIEW FEATURES</button>
+          </div>
+         </div>
+      </div>
+    </div>   
+</div>
+</section>
+
+   <br>
+   <br>
+   <br>       
+<section>
+    <div class="wrapper1">
+      <div class="section-header" id="about">
+        <h2 class="contrast">ABOUT US</h2>      
+        <div class="contrast line-border">
+          <p style="font-family: cursive; font-size: 20px; color: rgb(12, 4, 0);" >Setibulum rutrum quam vitae fringilla tincidunt</p>
+          <hr width="50%">
+        </div>
+      </div>   
+  
+
+     <div class="imgbx">
+       <img src=" images\wp6.jpg ">
+      </div>
+        <div class="text">
+         <br>
+         <p>Lorem ipsum dolor sitamet, consectetur adipisicing elit,<br> seddo eiusmod tempor incididunt ut labore et dolore <br>magna aliqua. Ut enim ad minim veniam, quisus nostrud <br>exercitation ullamco laboris nisi ut aliquip ex ea commodo<br> consequat. Duis aute irure dolor in reprehenderit in voluptate<br> velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint <br>occaecat cupidatat non proident, sunt in culpa qui <br>officia deserunt mollit anim id est laborum.
+<br><br><br>Excepteur sint occaecat cupidatat none proident,<br>sunt in culpa qui officia deserunt mollit anim id est laborum <br>voluptate dolor.</p>
+</div>
+</div>
+</section>
+<br>
+<br>
+<br>
+<br>
+ 
+ <br>
+ 
+ <br>
+   <br>
+   <br> 
+<section>
+  <div class="wrapper2">
+    <div class="section-header"id="portfolio">
+      <h2 class="contrast">PORTFOLIO</h2>      
+      <div class="contrast line-border">
+        <p style="font-family: cursive; font-size: 20px; color: rgb(12, 4, 0);" >An eye for detail makes our work beautiful</p>
+        <hr width="50%">
+      </div>
+    </div>   
+</div>
+
+
+ <br>
+ <br>
+ <br>
+ <div class="row">
+  <div class="column1">
+  <img src="images\wp8.PNG" style="width:100%">
+  <img src="images\wp9.PNG" style="width:100%">
+  </div>
+  <div class="column1">
+  <img src="images\wp10.PNG" style="width:100%">
+  <img src="images\wp11.PNG" style="width:100%">
+  </div>
+
+  <div class="column1">
+  <img src="images\wp12.PNG" style="width:100%">
+  <img src="images\wp13.PNG" style="width:100%">
+  </div>
+  <div class="column1">
+  <img src="images\wp14.PNG" style="width:100%">
+  <img src="images\wp15.PNG" style="width:100%">
+</div> 
+</div> 
+<p style="text-align: center; font-family: cursive; color: rgb(8, 8, 8); font-size: 25px;">Have a Project in Mind?</p>
+<br>
+<center><button class="button button3">CONTACT NOW</button></center>
+<br>
+<br>
+<br>
+</section>
+<br>
+   <br>
+   <br> 
+<section>
+  <div class="wrapper3">
+    <div class="section-header" id="testimonial">
+      <h2 class="contrast">TESTIMONIAL</h2>      
+      <div class="contrast line-border">
+        <hr width="50%">
+      </div>
+    </div>   
+</div>
+
+<br>
+<br>
+<br>
+</section>
+
+<br>
+   <br>
+   <br> 
+<section >
+  <div class="wrapper4">
+    <div class="section-header" id="sercices">
+      <h2>SERVICES</h2></div>
+      <div style="font-size: 20px; font-style: italic; text-align: center;">Scope of our featured premium services</div>
+    <div class=" line-border">
+      <hr width="50%">
+    </div>
+  </div>
+  <br>
+  <br>
+  <br> 
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="row">
+  <div class="column4">
+    <h3>BRANDING</h3>
+    <p>
+   
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+      Suspendisse varius enim eros elementum tristique. Duis cursus, 
+      viverra ornare, eros dolor interdum nulla, commodo diam libero vitae."
+    </p>
+  </div>
+    <div class="column4">
+  <h3>WEB DESIGN</h3>
+  <p>
+ 
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Suspendisse varius enim eros elementum tristique. Duis cursus, 
+    viverra ornare, eros dolor interdum nulla, commodo diam libero vitae."
+  </p>
+</div>>
+ <div class="column4">
+  <h3>APP DESIGIN</h3>
+  <p>
+ 
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Suspendisse varius enim eros elementum tristique. Duis cursus, 
+    viverra ornare, eros dolor interdum nulla, commodo diam libero vitae."
+  </p>
+</div>
+ 
+ <div class="column4">
+  <h3>PHOTOGRAPHY</h3>
+  <p>
+ 
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Suspendisse varius enim eros elementum tristique. Duis cursus, 
+    viverra ornare, eros dolor interdum nulla, commodo diam libero vitae."
+  </p>
+</div>
+ <div class="column4">
+  <h3>BRANDING</h3>
+  <p>
+ 
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Suspendisse varius enim eros elementum tristique. Duis cursus, 
+    viverra ornare, eros dolor interdum nulla, commodo diam libero vitae."
+  </p>
+</div>
+<div class="column4">
+  <h3>HOSTING</h3>
+  <p>
+ 
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Suspendisse varius enim eros elementum tristique. Duis cursus, 
+    viverra ornare, eros dolor interdum nulla, commodo diam libero vitae."
+  </p>
+</div>
+</div>
+</section>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br>
+   <br>
+   <br> 
+<section >
+  <div class="wrapper5">
+    <div class="section-header " id="team">
+      <center><h2>AWESOME TEAM</h2></center></div><br>
+      <div style="font-size: 20px; font-style: italic;text-align: center;">Setibulum rutrum quam vitae fringilla tincidunt</div>
+    <div class=" line-border">
+    <hr width="50%">
+    </div>
+  </div>
+  <br>
+  <br>
+  <br> 
+
+  <div class="row">
+    <div class="column">
+    <center><img src="images\wp26.jpg" alt="Snow" style="width:100%">
+      <a class="fa fa-facebook" href="http://facebook.com"></a>
+      <a class="fa fa-twitter" href="http://twitter.com"></a>
+      <a class="fa fa-linkedin" href="http://linkedin.com"></a></center>
+    </div>
+  
+    <div class="column">
+      <img src="images\wp27.jpg" alt="Forest" style="width:100%">
+    <center><a class="fa fa-facebook" href="http://facebook.com"></a>
+      <a class="fa fa-twitter" href="http://twitter.com"></a>
+      <a class="fa fa-linkedin" href="http://linkedin.com"></a></center>
+    </div>
+  
+    <div class="column">
+      <img src="images\wp19.jpg" alt="Mountains" style="width:100%">
+      <center><a class="fa fa-facebook" href="http://facebook.com"></a>
+      <a class="fa fa-twitter" href="http://twitter.com"></a>
+      <a class="fa fa-linkedin" href="http://linkedin.com"></a></center>
+    </div>
+
+  
+    <div class="column">
+     <img src="images\wp25.jpg" alt="Mountains" style="width:100%">
+    <center><a class="fa fa-facebook" href="http://facebook.com"></a>
+     <a class="fa fa-twitter" href="http://twitter.com"></a>
+     <a class="fa fa-linkedin" href="http://linkedin.com"></a></center>
+   </div>
+  </div>
+</div>
+  </section>
+   <br>
+   <br>
+
+   <br>
+   <br>
+   <br> 
+  
+      
+  <section class="section">
+    <div class="wrapper6">
+        <div class="section-header" id=" blog">
+            <h2>BLOG</h2></div><br>
+            <div style="font-size: 20px; font-style: italic;text-align: center;">Check out our latest news and activitie</div>
+          <div class=" line-border">
+          <hr width="50%">
+          </div>
+        </div>
+<br>
+<br> 
+
+<div class="row">
+  <div class="column2">
+    <img src="images\wp29.jpg" alt="Snow" style="width:100%">
+    <div class="container">
+      <h4><b>Tempor incidunt labore dolor</b></h4> 
+      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim <br>d est laborum.</p> 
+    </div>
+  </div>
+  <div class="column2">
+    <img src="images\wp28.jpg" alt="Forest" style="width:100%">
+    <div class="container">
+      <h4><b>Tempor incidunt labore dolor</b></h4> 
+      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim <br>d est laborum.</p> 
+    </div>
+  </div>
+  <div class="column2">
+    <img src="images\wp26.jpg" alt="Forest" style="width:100%">
+    <div class="container">
+      <h4><b>Tempor incidunt labore dolor</b></h4> 
+      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim <br>d est laborum.</p> 
+    </div>
+  </div>
+   
+</div>
+ 
+
+      <br>
+      <br>
+      <br>
+      
+&emsp13;
+        <center><button class="button button4">READ THE BLOG</button></center>
+    </div>     
+  </section>
+
+
+<br>
+<br>
+<br>
+
+<
+   <br>
+   <br> 
+<section class="section" >
+  <div class="wrapper6">
+  <div class="section-header" id="kit">
+      <h2>KEEP IN TOUCH</h2></div><br>
+      <div style="font-size: 20px; font-style: italic;text-align: center;">Setibulum rutrum quam vitae fringilla tincidunt</div>
+    <div class=" line-border">
+    <hr width="50%">
+    </div>
+  </div>
+</div>
+</section>
+<section>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<section>
+<center>
+  <div class="contact-box ">
+    
+    <form>
+      <input type="text" class="input-field" placeholder="Enter your name">
+      <input type="text" class="input-field" placeholder="Enter your last name">
+      <input type="email" class="input-field" placeholder="Enter your email">
+      <textarea type="text" class="input-field" placeholder="Enter your message"></textarea>
+      <br>
+      <br>
+
+      <button type="button" class="button5">SEND MESSAGE</button>
+    </form> 
+  
+  </div>
+</center>
+</section>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="footer">
+  <p>footer</p>
+  <p>© 2016 KRUNCH LANDING PAGE, DESIGNED BY SHUVO & WEBFLOWED BY TAIMURIA</p>
+</div>
+
+ 
+
+
+</body>
+</html>

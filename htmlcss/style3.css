@@ -1,0 +1,148 @@
+
+.wrapper{ 
+    padding-top: 7%;
+    position: relative;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    color: #f0e9e3;
+    line-height: 1.4;
+    background: linear-gradient(rgba(0,0,0,0.5),#61807c), url("https://images.unsplash.com/photo-1614484564972-e37b65b5a573?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+.column2 {
+ float:left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.column4 {
+  float:left;
+   width: 33.33%;
+   padding: 5px;
+ }
+
+
+.imgbx{
+float: right;
+
+
+}
+.text{
+ 
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*#secondpage{
+    padding-top: 10%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    line-height:0;
+    font-size: 30px;
+}
+
+body { padding: 60px; 
+    font: 1em Helvetica Neue, Helvetica, Arial, sans-serif; 
+} 
+.grid { 
+     
+     display: grid; 
+     grid-template-columns:  auto auto auto;
+     grid-template-rows: 100px 100px ; 
+     grid-gap: 60px;
+     } 
+.grid > * {  
+
+     padding: 30px; 
+    }
+
+    
+   /* .wraper {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 20%;
+        border-radius: 5px;
+      }
+      
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+      
+      img {
+        border-radius: 5px 5px 0 0;
+      }
+      */
+      .container {
+        padding: 2px 16px;
+      } 
+
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+
+    a.fa-facebook {
+        text-align: center;
+        background: #3B5998;
+        color: white;
+      }
+      
+
+      a.fa-twitter {
+          text-align: center;
+        background: #55ACEE;
+        color: white;
+      }
+      a.fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      
+    
+    
+      .contact-box{
+      height: 500px;
+      width: 400px;
+       box-shadow: 0 0 20px 0 #999;
+      
+       
+       box-align: center;
+       box-direction: center;
+       border-radius: 10px;
+       background-color: transparent;
+      }
+
+      form{
+       margin: auto;
+      }
+      .input-field{
+        border-radius: 10px;
+        width: 250px;
+        height: 50px;
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 1px solid #777;
+      }
+
+      .textarea-field{
+        height: 200px;
+        padding-top: 20px;
+
+      }
